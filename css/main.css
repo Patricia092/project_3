@@ -1,0 +1,122 @@
+/* 
+    CSS Guide 
+
+    1.  General Styles (Normalize)
+    2. Flexbox Items 
+    3. Hero slider
+    4. Flavors
+    5. Video
+    6. About Us
+    7. Contact Form
+    8. Footer
+
+ */
+
+
+/* 1. ---General Styles--- */
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img,
+embed,
+object,
+video,
+picture {
+    max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+input,
+textarea {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+
+section h2,
+section h3,
+section p {
+    padding-left: 15px;
+}
+
+/* ---End of General Styles--- */
+
+/* 2. Flexbox Items */
+.flex-container-header {
+    margin: 0 auto;
+    background-color: efefef;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexbox-header {
+    background-color: #ffffff;
+    padding: 2px;
+    text-align: center;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.flex-container-footer-mobile {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.flexbox-footer-mobile {
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 120px;
+    margin-top: 220px;
+}
+
+.flex-container-footer-m-l-xl{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.flexbox-footer-m-l-xl {
+    background-color: #ffffff;
+    color: black;
+    padding: 60px;
+    text-align: cente;
+    width: 120px;
+    margin-top: 90px;
+    margin-right: 40px;
+   
+}
+
+/* ---End of Flexbox Items--- */
+
+/* 3. Hero slider */
+.flavors-color {
+    background-color: #E1E1E1;
+    padding: 20px;
+}
+
+
+/* ---End of Hero slider--- */
