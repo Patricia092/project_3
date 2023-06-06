@@ -70,8 +70,28 @@ html {
   margin: 20px;
 }
 
+.recipe{ 
+  height: 380px;
+}
+
 .footer {
   height: 380px;
+}
+
+.reviews {
+  height: 300px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 22px;
+}
+
+.flavor-products {
+  height: 400px;
+  text-align: center;
+  background-color: #A1A1A1;
+  color: white;
+  font-size: 22px;
 }
 
 .full-width-grid-con {
@@ -202,6 +222,14 @@ html {
 
   .footer {
     font-size: 22px;
+  }
+
+  .reviews {
+    height: 380px;
+  }
+
+  .variety {
+    height: 380px;
   }
 
   .full-width-grid-con {
@@ -428,6 +456,14 @@ html {
 
   .footer {
     font-size: 22px;
+  }
+
+  .recipe {
+    height: 500px;
+  }
+
+  .reviews {
+    height: 450px;
   }
 
   .full-width-grid-con {
@@ -657,6 +693,14 @@ html {
 
   .footer {
     font-size: 32px;
+  }
+
+  .recipe {
+    height: 520px;
+  }
+
+  .reviews {
+    height: 500px;
   }
 
   .full-width-grid-con {
