@@ -3,12 +3,8 @@
 
     1.  General Styles (Normalize)
     2. Flexbox Items 
-    3. Hero slider
-    4. Flavors
-    5. Video
-    6. About Us
-    7. Contact Form
-    8. Footer
+    3. Header
+    4. Hero slider
 
  */
 
@@ -59,16 +55,18 @@ section p {
 /* ---End of General Styles--- */
 
 /* 2. Flexbox Items */
+
 .flex-container-header {
     margin: 0 auto;
-    background-color: efefef;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content:space-around;
 }
 
 .flexbox-header {
     background-color: #ffffff;
+    color: black;
     padding: 2px;
     text-align: center;
     width: 100px;
@@ -95,28 +93,31 @@ section p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content:space-around;
 }
 
 .flexbox-footer-m-l-xl {
     background-color: #ffffff;
     color: black;
     padding: 60px;
-    text-align: cente;
-    width: 120px;
+    text-align: center;
     margin-top: 90px;
-    margin-right: 40px;
-   
 }
 
 /* ---End of Flexbox Items--- */
 
-/* 3. Hero slider */
+/* 3. ---Header--- */
+
+.icons {
+    margin-left: 50px;
+}
+
+/* ---End of Header--- */
+
+/* 4. Hero slider */
 .flavors-color {
     background-color: #E1E1E1;
     padding: 20px;
 }
-
 
 /* ---End of Hero slider--- */
