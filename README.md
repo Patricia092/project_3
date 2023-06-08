@@ -1,1 +1,1 @@
-# project_3
+# HW #3 – CREATE YOUR MIDTERM SCAFFOLD
